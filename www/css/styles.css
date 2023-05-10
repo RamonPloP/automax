@@ -23,6 +23,12 @@ a:hover{
   margin-top: 2%;
 }
 
+#contact{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+
 .nav{
   display: flex;
   justify-content: space-around;
