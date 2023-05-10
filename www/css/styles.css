@@ -3,7 +3,7 @@ body{
 }
 
 .barra-nav{
-  background-color: #FFBC42;
+  background-image: linear-gradient(#FFBC42, #ff9700);
   height: 70%;
 }
 
@@ -23,7 +23,7 @@ a:hover{
 
 #footer{
   padding: 1%;
-  background-color: #FFBC42;
+  background-image: linear-gradient(#FFBC42, #ff9700);
   text-align: center;
 }
 
