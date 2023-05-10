@@ -1,5 +1,9 @@
+body{
+  background-color: #DAF7DC;
+}
+
 .barra-nav{
-  background-color: #ff9c0e;
+  background-color: #FFBC42;
   height: 70%;
 }
 
@@ -15,6 +19,12 @@ a{
 
 a:hover{
   background-color: #ffbd00;
+}
+
+#footer{
+  padding: 1%;
+  background-color: #FFBC42;
+  text-align: center;
 }
 
 #contenedor-about{
@@ -43,11 +53,13 @@ img{
 }
 
 .galeria{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
   margin-top: 2%;
+  padding: 2%;
   display: inline-block;
   justify-content: space-between;
+  background-color: #A3D9FF;
 }
 
 .autos{
