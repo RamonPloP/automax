@@ -1,0 +1,25 @@
+#barra-nav{
+  background-color: #ff9c0e;
+  height: 70%;
+}
+
+#opc{
+  display: inline-block;
+  text-align: center;
+}
+
+h1{
+  margin-left: 10%;
+}
+
+img{
+  width: 300px;
+}
+
+.galeria{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  display: inline-block;
+  justify-content: space-between;
+}
