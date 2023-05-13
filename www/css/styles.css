@@ -333,3 +333,33 @@ button:hover span {
 
 
 }
+
+
+
+
+.TitCont h1{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contact h2{
+  padding: 1% 10%;
+  font-family: 'Poppins';
+  font-style: normal;
+  text-align: justify;
+}
+
+.contact p{
+  padding: 1% 10%;
+  font-family: 'Poppins';
+  font-style: normal;
+  text-align: justify;
+}
+.contact ul{
+  padding: 0% 10%;
+  font-family: 'Poppins';
+  font-style: normal;
+  text-align: justify;
+}
