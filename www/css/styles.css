@@ -135,6 +135,10 @@
               -20px -20px 33px #ffffff;
 }
 
+.card h2{
+  font-size: 1.2rem;
+}
+
 .card-title {
   display: block;
   text-align: center;
@@ -195,6 +199,11 @@
 
 
 
+
+
+
+
+
 .best-cars{
   padding: 3% 10%;
   font-family: 'Poppins';
@@ -226,6 +235,7 @@
   max-height: 600px;
   margin-bottom: 2%;
 
+
   text-align: justify;
   object-fit:cover;
 }
@@ -233,6 +243,7 @@
 .best-card h3{
   text-align: center;
   margin-bottom: 2%;
+  margin-top: 2%;
   border: #a8a8a8 solid 1px;
   background: linear-gradient(270deg, #FFA500 0%, #FFEA00 100%);
   color: white;
@@ -261,6 +272,7 @@ button {
  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
  overflow: hidden;
  border: none;
+ margin: 0%;
 }
 
 button:after {
@@ -283,7 +295,7 @@ button span {
  text-align: center;
  text-decoration: none;
  width: 100%;
- padding: 18px 25px;
+ padding: 15px 25px;
  color: #fff;
  font-size: 1.125em;
  font-weight: 700;
@@ -312,5 +324,12 @@ button:hover span {
 }
 
 .best-cars-container{
-  margin-top: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50%;
+
+
 }
