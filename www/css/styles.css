@@ -1,71 +1,316 @@
-body{
-  background-color: #DAF7DC;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.barra-nav{
-  background-image: linear-gradient(#FFBC42, #ff9700);
-  height: 70%;
+.nav-bar{
+  width: 100%;
+  height: 65vh;
+  background: linear-gradient(270deg, #FFA500 0%, #FFEA00 100%);
+    
 }
 
-a{
+.nav-bar-small{
+  width: 100%;
+  height: 13vh;
+  background: linear-gradient(270deg, #FFA500 0%, #FFEA00 100%);
+    
+}
+
+.nav-small{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 96%;
+
+}
+
+
+.nav{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20%;
+
+
+}
+
+
+.nav a, .nav-small a{
   text-decoration: none;
   text-decoration-color: black;
-  padding-top: 1.5%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 1.5%;
-  font-size: 25px;
+  padding: 1.5vw 3vw;
+  color: black;
+  font-family: 'Poppins';
+ 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 3.6vw;;
+
+
+ 
+
 }
 
-a:hover{
+.nav a:hover, .nav-small a:hover{
   background-color: #ffbd00;
+}
+
+
+
+.nav img, .nav-small img{
+  width: 23%;
+
+}
+
+.intro-text{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 5%;
+  top: 20%;
+}
+
+.intro-text h1{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 5vw;
+
+  margin-bottom: 0px;
+}
+.intro-text h3{
+  margin: 0%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8vw;
+  
+}
+
+.car-logo{
+  position: absolute;
+  left: 48%;
+  top: 18%;
+  width: 50%;
+
+}
+
+.gallery{
+  padding: 3% 10%;
+  
+}
+
+.gallery h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+
+
+
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 60px;
+
+  position: relative;
+  max-width: 250px;
+  max-height: 200px;
+
+  margin-bottom: 10px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 33px #b1b1b1,
+              -20px -20px 33px #ffffff;
+}
+
+.card-title {
+  display: block;
+  text-align: center;
+  color: #fff;
+  background:linear-gradient(270deg, #FFA500 0%, #FFEA00 100%);
+  padding: 2%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  
+}
+
+.card-desc {
+  display: block;
+  font-size: 1.2rem;
+  position: absolute;
+  height: 0;
+  top: 0;
+  opacity: 0;
+  padding: 18px 8%;
+  background-color: white;
+  overflow-y: scroll;
+  transition: 0.8s ease;
+  text-align:center;  
+
+}
+
+.card:hover .card-desc {
+  opacity: 1;
+  height: 100%;
 }
 
 #footer{
   padding: 1%;
-  background-image: linear-gradient(#FFBC42, #ff9700);
+  background: linear-gradient(270deg, #FFA500 0%, #FFEA00 100%);
+  text-align: center;
+  
+}
+
+.about{
+  padding: 3% 10%;
+  font-family: 'Poppins';
+  font-style: normal;
+
+}
+.about h1{
   text-align: center;
 }
-
-#contenedor-about{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
+.about ul{
+  padding-left: 3%;
 }
 
-#contact{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
+
+
+.best-cars{
+  padding: 3% 10%;
+  font-family: 'Poppins';
+  font-style: normal;
+  
 }
 
-.nav{
-  display: flex;
-  justify-content: space-around;
+.best-cars h2{
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 2.4vw;
+
+
 }
 
-h1{
-  margin-left: 10%;
+.best-cars img{
+  position: absolute;
+  border-radius: 12%;
+  box-shadow: #183153 0px 0px 10px 0px;
+
+
+  left: 40%;
+  max-height: 400px;
 }
 
-img{
-  width: 300px;
+.best-card{
+  position: absolute;
+  max-width: 350px;
+  max-height: 600px;
+  margin-bottom: 2%;
+
+  text-align: justify;
+  object-fit:cover;
 }
 
-.galeria{
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-top: 2%;
-  padding: 2%;
-  display: inline-block;
-  justify-content: space-between;
-  background-color: #A3D9FF;
+.best-card h3{
+  text-align: center;
+  margin-bottom: 2%;
+  border: #a8a8a8 solid 1px;
+  background: linear-gradient(270deg, #FFA500 0%, #FFEA00 100%);
+  color: white;
+  font-weight: 500;
+  font-size: 1.8vw;
+}
+.best-card p{
+  
+  font-size: 1.2vw;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
-.autos{
-  margin: 2%;
+
+
+
+
+button {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 5px;
+ background: #185323;
+ font-family: "Poppins";
+ box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+ overflow: hidden;
+ border: none;
 }
 
-.autos:hover{
-  opacity: 50%;
+button:after {
+ content: " ";
+ width: 0%;
+ height: 100%;
+ background: #FFD401;
+ position: absolute;
+ transition: all 0.4s ease-in-out;
+ right: 0;
+}
+
+button:hover::after {
+ right: auto;
+ left: 0;
+ width: 100%;
+}
+
+button span {
+ text-align: center;
+ text-decoration: none;
+ width: 100%;
+ padding: 18px 25px;
+ color: #fff;
+ font-size: 1.125em;
+ font-weight: 700;
+ letter-spacing: 0.3em;
+ z-index: 20;
+ transition: all 0.3s ease-in-out;
+}
+
+button:hover span {
+ color: #183153;
+ animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+ 0% {
+  transform: scale(1);
+ }
+
+ 50% {
+  transform: scale(0.95);
+ }
+
+  100% {
+  transform: scale(1);
+ }
+}
+
+.best-cars-container{
+  margin-top: 40%;
 }
