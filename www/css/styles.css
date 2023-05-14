@@ -363,3 +363,7 @@ button:hover span {
   font-style: normal;
   text-align: justify;
 }
+
+.link{
+  color: black;
+}
