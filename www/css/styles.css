@@ -337,7 +337,7 @@ button:hover span {
 
 
 
-.TitCont h1{
+.Tit-Cont h1{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -358,7 +358,7 @@ button:hover span {
   text-align: justify;
 }
 .contact ul{
-  padding: 0% 10%;
+  padding: 0% 12%;
   font-family: 'Poppins';
   font-style: normal;
   text-align: justify;
@@ -367,3 +367,5 @@ button:hover span {
 .link{
   color: black;
 }
+
+
