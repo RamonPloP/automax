@@ -8,16 +8,19 @@ http.createServer((request,response)=>{
   const file = request.url == '/' ? './www/index.html' : `./www${request.url}`;
 
 
-  if(request.url == '/login'){
+  if(request.method == "POST"){
     let data = [];
-    request.on('data',value=>{
-      data.push(value);
-    }).on('end',()=>{
-      let params = Buffer.concat(data).toString();
-      response.write(params);
-      response.end();
-    });
-  }
+    request.on("data", value => {
+        data.push(value);
+    }).on("end", () => {    
+        let params =Buffer.concat(data).toString();
+        cleanParams = params.replaceAll("&"," ");
+        cleanParams = cleanParams.replaceAll("+"," ");
+        cleanParams = cleanParams.replaceAll("%40","@");
+        cleanParams = cleanParams.replaceAll("%2C",",");
+        fs.appendFileSync('contact.txt', cleanParams + "\n", 'utf-8')
+    })
+}
 
   //const data = fs.readFileSync('./www/index.html');
   fs.readFile(file,(err,data)=>{
