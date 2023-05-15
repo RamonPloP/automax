@@ -1,4 +1,4 @@
-<h1SITIO AUTOMAX</h1>
+<h1>SITIO AUTOMAX</h1>
 
 <h2>Descripción: </h2>
 
