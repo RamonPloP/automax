@@ -27,4 +27,3 @@ Para la materia Desarrollo basado en plataformas impartida por el profesor <b>Ra
     <li>En la terminal tenemos que ingresar node app.js estando en la carpeta donde metimos todo los archivos </li>
     <li>Ahora sí ya en el navegador escribiriemos localhost:8888</li>
 </ul>
-![image](https://github.com/RamonPloP/automax/assets/124909948/da410656-8f83-4b16-867d-1c72cbcf27fe)
