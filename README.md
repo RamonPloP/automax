@@ -13,7 +13,7 @@ Para la materia Desarrollo basado en plataformas impartida por el profesor <b>Ra
 <h2>Característícas principales:</h2>
 <ul>
   <li>La página web cuenta con una página Home en la cual se nos muestra los autos disponibles y al pasar el cursor por ellos nos muestra el precio y los colores disponibles </li>
-  <li>También cuenta con una página llamada best cars en la cual mostramos una descripción de lo que para nosotros son los mejores autos que manejamos y los precios</li>
+  <li>También cuenta con una página llamada best cars en la cual mostramos una descripción de lo que para nosotros son los más rentados y los precios</li>
   <li>De igual manera tenemos otra página llamada Contact que son los datos de la empresa junto con un formulario para enviar un mensaje</li>
   <li>Por su parte tenemos otra que se llama About la cual habla un poquito más de la empresa</li>
 </ul>
